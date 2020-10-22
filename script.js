@@ -50,3 +50,61 @@
 // let b = prompt("Второе число?", 2);
 //
 // alert(+a + +b); // 12
+
+// ----------------------Операторы сравнения----------------------
+// alert( null > 0 );  // (1) false
+// alert( null == 0 ); // (2) false
+// alert( null >= 0 ); // (3) true
+// Значения null и undefined равны == друг другу и не равны любому другому значению.
+
+// 5 > 4 // true
+// "ананас" > "яблоко" // false
+// "2" > "12" // true
+// undefined == null //true
+// undefined === null // false
+// null == "\n0\n" // false
+// null === +"\n0\n" // false
+
+// ----------------------Условное ветвление: if, '?'----------------------
+// const age = 15;
+// let accessAllowed = (age > 18) ? true : false;
+// alert(accessAllowed);
+
+// let name = prompt("Какое официальное название JavaScript?", '');
+// if (name === 'ECMAScript') alert('Правильно!')
+// else alert('Не знаете? “ECMAScript”!')
+// let answer = (name === 'ECMAScript') ? alert('Правильно!') : alert('Не знаете? “ECMAScript”!')
+
+// let value = prompt("Введите число:", '');
+// if (value > 0) alert(1);
+// else if (value < 0) alert(-1);
+// else alert(0);
+
+// let result;
+// let a = 1, b = 2
+// if (a + b < 4) {
+//     result = 'Мало';
+// } else {
+//     result = 'Много';
+// }
+// result = (a + b < 4) ? 'Мало' : 'Много';
+// alert(result);
+
+// let message;
+
+// if (login == 'Сотрудник') {
+//     message = 'Привет';
+// } else if (login == 'Директор') {
+//     message = 'Здравствуйте';
+// } else if (login == '') {
+//     message = 'Нет логина';
+// } else {
+//     message = '';
+// }
+
+// let login = '';
+// message = (login === 'Сотрудник') ? 'Привет' :
+//     (login === 'Директор') ? 'Здравствуйте' :
+//         (login === '') ? 'Нет логина' : '';
+// alert(message)
+
