@@ -252,3 +252,46 @@
 //         alert('Вы ввели число 2, а может и 3');
 //         break;
 // }
+
+// ----------------------Функции----------------------
+// function checkAge(age) {
+//     if (age > 18) {
+//         return true;
+//     } else {
+//         return confirm('Родители разрешили?');
+//     }
+// }
+
+// function checkAge(age) {
+//     return age > 18 ? true : confirm('Родители разрешили?');
+// }
+// function checkAge(age) {
+//     return age > 18 || confirm('Родители разрешили?');
+// }
+//
+// let age = prompt('Some', '');
+// checkAge(age);
+
+// function min(a,b){
+//     if(a < b) return a
+//     else return b
+// }
+// alert(min(2,5))
+// alert(min(3,-1))
+// alert(min(1,1))
+
+// function pow(x, n){
+//     let i = 0;
+//     let mult = 1;
+//     while (i < n){
+//         mult *= x;
+//         i++;
+//     }
+//     return mult;
+// }
+//
+// let x = +prompt("Введите x", '');
+// let n = +prompt("Введите n", '');
+// if (n < 1) {
+//     alert(`Степень ${n} не поддерживается, используйте натуральное число`);
+// } else alert(pow(x, n));
