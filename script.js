@@ -50,3 +50,17 @@
 // let b = prompt("Второе число?", 2);
 //
 // alert(+a + +b); // 12
+
+// ----------------------Операторы сравнения----------------------
+// alert( null > 0 );  // (1) false
+// alert( null == 0 ); // (2) false
+// alert( null >= 0 ); // (3) true
+// Значения null и undefined равны == друг другу и не равны любому другому значению.
+
+// 5 > 4 // true
+// "ананас" > "яблоко" // false
+// "2" > "12" // true
+// undefined == null //true
+// undefined === null // false
+// null == "\n0\n" // false
+// null === +"\n0\n" // false
