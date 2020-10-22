@@ -108,3 +108,34 @@
 //         (login === '') ? 'Нет логина' : '';
 // alert(message)
 
+// ----------------------Логические операторы----------------------
+// Двойное НЕ используют для преобразования значений к логическому типу:
+// alert( !!"non-empty string" ); // true
+// alert( !!null ); // false
+
+// let age = 90;
+// if (age >= 14 && age <= 90) alert(true)
+// else alert(false)
+
+// if (!(age >= 14 && age <= 90)) alert(true)
+// else alert(false)
+
+// if (age < 14 || age > 90) alert(true)
+// else alert(false)
+
+// if (-1 || 0) alert( 'first' ); //-1
+// if (-1 && 0) alert( 'second' ); // 0
+// if (null || -1 && 1) alert( 'third' ); // null || 1 // 1
+//
+
+// let login = prompt("Кто там?", '');
+// if (login === '' || login == null) alert('Отменено')
+// else if(login === 'Админ'){
+//     let password = prompt('Пароль?', '');
+//     if (password === '' || password == null){
+//         alert('Отменено')
+//     }
+//     else if(password === 'Я Главный') alert('Здравствуйте!')
+//     else alert('Неверный пароль')
+// }
+// else alert('Я вас не знаю')
