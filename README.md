@@ -25,6 +25,6 @@
 ✅ Циклы while и for  
 ✅ Конструкция "switch"  
 ✅ Функции  
-Function Expression  
-Функции-стрелки, основы  
-Особенности JavaScript  
+✅ Function Expression  
+✅ Функции-стрелки, основы  
+✅ Особенности JavaScript  
