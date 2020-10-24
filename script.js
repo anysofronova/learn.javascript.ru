@@ -324,3 +324,4 @@
 
 // let ask = (question) => confirm(question) ? alert("Вы согласились.") : alert("Вы отменили выполнение.");
 // ask("Вы согласны?");
+
