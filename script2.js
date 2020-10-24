@@ -117,3 +117,21 @@
 // for (let key in menu){
 //     alert(key + ': ' +  menu[key])
 // }
+
+// ----------------------Копирование объектов и ссылки----------------------
+// let user = { name: "Иван" };
+//
+// let permissions1 = { canView: true };
+// let permissions2 = { canEdit: true };
+//
+// // копируем все свойства из permissions1 и permissions2 в user
+// Object.assign(user, permissions1, permissions2); // теперь user = { name: "Иван", canView: true, canEdit: true }
+//
+// let clone = Object.assign({}, user);
+// for (let key in clone){
+//     alert(key + ': ' +  clone[key])
+// }
+// Для «простого клонирования» объекта можно использовать Object.assign. Необходимо помнить, что Object.assign
+// не делает глубокое клонирования объекта. Если внутри копируемого объекта есть свойство значение,
+// которого не является примитивом, оно будет передано по ссылке. Для создания «настоящей копии»
+// (полного клона объекта) можно воспользоваться методом из сторонней JavaScript-библиотеки _.cloneDeep(obj).
